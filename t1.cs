@@ -16,17 +16,17 @@
    //if monday is checked
    int mon = CountDays("Monday", start, end);
    //if tuesday is checked
-   int mon = CountDays("Monday", start, end);
+   int tue = CountDays("Tuesday", start, end);
     //if wednesday is checked
-   int mon = CountDays("Monday", start, end);
+   int wed = CountDays("Wednesday", start, end);
     //if thursday is checked
-   int mon = CountDays("Monday", start, end);
+   int thu = CountDays("Thursday", start, end);
     //if friday is checked
-   int mon = CountDays("Monday", start, end);
+   int fri = CountDays("Friday", start, end);
     //if saturday is checked
-   int mon = CountDays("Monday", start, end);
+   int sat = CountDays("Saturday", start, end);
     //if sunday is checked
-   int mon = CountDays("Monday", start, end);
+   int sun = CountDays("Sunday", start, end);
    
    int result = totalDays - mon - tue - wed - thu - fri - sat - sun;
    
